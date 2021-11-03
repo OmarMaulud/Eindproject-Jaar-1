@@ -1,0 +1,258 @@
+.Header {
+ background-color: rgb(1, 1, 109);
+  display: flex;
+  justify-content: space-around;
+  color: white; 
+  
+}
+
+.logo > img {
+  height: 80px;
+
+}
+
+html, body {
+  margin: 0%;
+  height: 100%;
+  overflow: hidden
+}
+
+.icons > div > img {
+  height: 30px;
+  justify-content: space-around;
+}
+
+.icons > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.icons > div > h1 {
+  margin: 0%;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.profile {
+  display: flex;
+flex-direction:row;
+align-items:center;
+
+}
+
+.profile > div > img {
+  height: 30px;
+}
+
+.profile > h1 {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.Vierde {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.page, .Box {
+  width: 200px;
+
+}
+
+.page  {
+  width: 520px;
+  padding: 90px;
+  border: 2px solid gray;
+  margin: 2px;
+
+}
+
+.Box {
+  width: 320px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 2px;
+} 
+
+.Box > h6 {
+  font-size: large;
+}
+
+.table  {
+  width: 400px;
+}
+
+.table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+div.icons > div.Home {
+  padding: 10px;
+}
+
+div.icons > div.Universe {
+  padding: 10px;
+}
+
+div.icons > div.Reviews {
+  padding: 10px;
+}
+
+div.icons > div.Feedback {
+  padding: 10px;
+}
+
+div.icons > div.Doelen {
+  padding: 10px;
+}
+
+div.icons > div.Leaderboard {
+  padding: 10px;
+}
+
+div.icons > div.Meer {
+  padding: 10px;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  position: relative;
+  max-width: 340px;
+  width: 340px;
+  padding: 10px;
+  background-color: white;
+}
+
+.chat_berichten {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.bericht {
+  margin: 1px;
+  overflow: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  width: 300px;
+}
+
+.auteur {
+  font-weight: bold;
+}
+
+.bericht_tijd {
+  position: absolute;
+  right: 5px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background: #f1f1f1;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.cross_icon {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px; 
+}
+
+/* Close knop */
+.knop_close {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin-top: 2.3em;
+  margin-right: 1em;
+  height: 2em;
+  width: 2em;
+  border-radius: 1em;
+}
+
+/* Reload Button */ 
+.knop_reload {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  margin-top: 2.3em;
+  margin-right: 1em;
+  height: 2em;
+  width: 2em;
+  border-radius: 1em;
+}
+
+/* Chat berichten versturen */
+
+.text_close_send {
+  position: relative;
+}
+
+.text_close_send textarea {
+  width: 100%;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 5px;
+  height: 60px;
+  padding: 0px;
+}
+.text_close_send .knop_send {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.text_close_send .knop_code {
+  position: absolute;
+  right: 0px;
+  top: 40px;
+}
